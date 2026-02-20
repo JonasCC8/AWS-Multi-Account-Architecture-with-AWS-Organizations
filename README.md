@@ -92,8 +92,7 @@ Ubicar cada cuenta dentro de su OU correspondiente:
     }
   ]
 }
-Adjuntar la política a la OU correspondiente.
-
+---
 ## 🧩 Paso 5 – Buenas Prácticas de Seguridad
 
 - Habilitar CloudTrail a nivel organización.
@@ -101,3 +100,4 @@ Adjuntar la política a la OU correspondiente.
 - Habilitar AWS Config.
 - Aplicar principio de mínimo privilegio en IAM.
 - Activar MFA en cuentas root.
+
