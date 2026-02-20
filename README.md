@@ -92,6 +92,8 @@ Ubicar cada cuenta dentro de su OU correspondiente:
     }
   ]
 }
+}
+```
 ---
 ## 🧩 Paso 5 – Buenas Prácticas de Seguridad
 
