@@ -21,25 +21,8 @@ Este proyecto demuestra cómo diseñar e implementar una arquitectura multi-cuen
 
 ## 🏗️ Arquitectura
 
-```mermaid
-flowchart TD
-    Root["Root (Management Account)"]
+![AWS Multi Account Architecture](images/aws-multi-account-architecture.png)
 
-    SecurityOU["Security OU"]
-    ProdOU["Production OU"]
-    DevOU["Development OU"]
-
-    SecurityAcc["Security Account"]
-    ProdAcc["Production Account"]
-    DevAcc["Development Account"]
-
-    Root --> SecurityOU
-    Root --> ProdOU
-    Root --> DevOU
-
-    SecurityOU --> SecurityAcc
-    ProdOU --> ProdAcc
-    DevOU --> DevAcc
 
 ## 🧩 Paso 1 – Habilitar AWS Organizations
 
